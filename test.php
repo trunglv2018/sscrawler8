@@ -11,7 +11,7 @@ foreach($links as $link) {
 	echo $link.'<br/>';
 }
  function get_link($search, $domain='google.com.vn',$api_key='', $remove_domain = ''){
-        require_once( __ROOT__ . '/public_html/simple_html_dom.php');
+        require_once('./simple_html_dom.php');
       
         $links = array();
       
